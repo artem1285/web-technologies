@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-}
+ }
 
 
 
@@ -17,6 +17,58 @@ body {
     margin: 0 auto;
 }
 
-.title, .desc {
+.title, .desc, .subtitle {
     text-align: center;
+    margin-top: 10px;
+}
+
+.nav{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-link{
+    font-size: 17px;
+    font-weight: 700;
+    color: darkgreen;
+    text-decoration: none;
+    padding: 15px;
+    background-color: darkorange;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid transparent;
+}
+.nav-link:hover{
+    border: 1px solid rgb(175, 113, 36);
+    color: darkorange;
+    background-color: aliceblue;
+}
+
+.item {
+width: 300px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 10px;
+}
+
+.item-pic{
+    width: 100%;
+    border-radius: 10px;
+}
+.content{
+    margin-top: 100px;
+}
+
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Vinyl', cursive;
+font-size: 30px;
+}
+.item-box{
+   margin-top: 50px;
+   display:flex;
+   flex: wrap;
+   justify-content: space-between;
+}
+.item {
+    margin-bottom: 50px;
 }
