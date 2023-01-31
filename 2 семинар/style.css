@@ -72,3 +72,48 @@ font-size: 30px;
 .item {
     margin-bottom: 50px;
 }
+.item-link{
+    padding: 5px;
+    background-color: antiquewhite;
+    display: block;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Vinyl', cursive;
+    text-decoration: none;
+    color: black;
+}
+
+.ruk {
+    width: 400px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 600px;
+    
+    }
+
+.item-ruk{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.describ {
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    /* background-color: antiquewhite; */
+    display: block;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Vinyl', cursive;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.tit {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
